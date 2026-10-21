@@ -1,0 +1,33 @@
+# --- Dependências (recriam-se com um comando, não são código teu) ---
+vendor/
+node_modules/
+
+# --- Segredos e configuração local: NUNCA devem ir para o Git ---
+.env.local
+.env.*.local
+.env.local.php
+*.pem
+*.key
+*.keystore
+*.jks
+key.properties
+
+# --- Symfony (backend) ---
+backend/var/
+backend/public/bundles/
+
+# --- Flutter (mobile) ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+local.properties
+
+# --- Resultados de build ---
+build/
+
+# --- Editores e sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
